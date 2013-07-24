@@ -231,7 +231,7 @@ body {
 }
 
 a {
-  color: #0088cc;
+  color: #0066bd;
   text-decoration: none;
 }
 
@@ -4007,7 +4007,7 @@ input[type="submit"].btn.btn-mini {
 .nav-list > .active > a:focus {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-  background-color: #0088cc;
+  background-color: #4eecf7;
 }
 
 .nav-list [class^="icon-"],
