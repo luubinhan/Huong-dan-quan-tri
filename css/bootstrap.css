@@ -239,7 +239,7 @@ a {
 }
 
 section a{
-   border-bottom: 1px solid #4eecf7;
+   border-bottom: 1px solid #00a5b6;
   background: #fff;
   padding: 1px 2px 1px 2px;
 }
@@ -251,7 +251,7 @@ section a:hover{
 a:hover,
 a:focus {
   color: #000;
-  background: #4eecf7;
+  background: #00a5b6;
 
   border-bottom:none;
 }
@@ -2030,6 +2030,7 @@ table {
   text-align: left;
   vertical-align: top;
   border-top: 1px solid #dddddd;
+  background: #fff;
 }
 
 .table th {
@@ -4024,7 +4025,7 @@ input[type="submit"].btn.btn-mini {
 .nav-list > .active > a:focus {
   color: #ffffff;
   text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.2);
-  background-color: #4eecf7;
+  background-color: #00a5b6;
 }
 
 .nav-list [class^="icon-"],
