@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+	<title>User Guide</title>
+	<link href="http://luubinhan.github.io/Huong-dan-quan-tri/atom.xml" rel="self"/>
+	<link href="http://luubinhan.github.io/Huong-dan-quan-tri"/>
+	<updated>2014-04-26T12:06:04.800Z</updated>
+	<id>http://luubinhan.github.io/Huong-dan-quan-tri</id>
+	<author>
+		<name>Luu Binh An</name>
+		<email>luubinhan1989@gmail.com</email>
+	</author>
+
+	
+		<entry>
+			<title>Đăng nhập vào trang quản trị</title>
+			<link href="http://luubinhan.github.io/Huong-dan-quan-tri//posts/wordpress/bang-dieu-khien-chinh"/>
+			<updated>2014-04-26T10:05:10.000Z</updated>
+			<id>http://luubinhan.github.io/Huong-dan-quan-tri//posts/wordpress/bang-dieu-khien-chinh</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+		 More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;Đăng nhập vào trang quản trị | User Guide&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;Tài liệu hướng dẫn quản trị website MyStyle.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Luu Binh An&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.63.8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+		&lt;link rel=&quot;shortcut icon&quot; href=&quot;images/icons/favicon.ico&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;images/icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;images/icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;images/icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;images/icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/dist/css/bootstrap-theme.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/dist/css/bootstrap.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/docs.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
+	&lt;script src=&quot;/vendor/twitter-bootstrap/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+	&lt;!-- UserVoice JavaScript SDK (only needed once on a page) --&gt;
+    &lt;script&gt;(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/5TXIoPopTxzJgXUB7wEsLw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()&lt;/script&gt;
+
+    &lt;!-- A tab to launch the Classic Widget --&gt;
+    &lt;script&gt;
+    UserVoice = window.UserVoice || [];
+    UserVoice.push(['showTab', 'classic_widget', {
+      mode: 'full',
+      primary_color: '#4eecf7',
+      link_color: '#1d202a',
+      default_mode: 'feedback',
+      forum_id: 218163,
+      tab_label: 'Feedback',
+      tab_color: '#cc6d00',
+      tab_position: 'middle-left',
+      tab_inverted: false
+    }]);
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body data-spy=&quot;scroll&quot; data-target=&quot;.bs-docs-sidebar&quot;&gt;
+	&lt;!-- Menu --&gt;
+	&lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+		&lt;div class=&quot;container&quot;&gt;
+			&lt;div class=&quot;navbar-header&quot;&gt;
+				&lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+				&lt;/button&gt;
+				&lt;a class=&quot;navbar-brand&quot; href=&quot;/&quot;&gt;&lt;img src=&quot;http://i429.photobucket.com/albums/qq12/liu_zango_ne/Huong-dan-quan-tri/MyStyleLogo.png&quot; alt=&quot;MyStyle Hướng dẫn sử dụng&quot;&gt;&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;navbar-collapse collapse&quot;&gt;
+				&lt;ul class=&quot;nav navbar-nav&quot;&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/posts-wordpress&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/posts-wordpress&quot; property=&quot;dc:title&quot;&gt;
+								Quản trị website Wordpress
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/google-anylatic&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/google-anylatic&quot; property=&quot;dc:title&quot;&gt;
+								Google Anylatic
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/thu-thuat-seo-co-ban&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/thu-thuat-seo-co-ban&quot; property=&quot;dc:title&quot;&gt;
+								Thủ thuật SEO cơ bản
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/woocommerce&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/woocommerce&quot; property=&quot;dc:title&quot;&gt;
+								Woocommerce
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+				&lt;/ul&gt;
+			&lt;/div&gt;&lt;!--/.navbar-collapse --&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- Content --&gt;
+
+		&lt;!-- Content --&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;div class=&quot;bs-docs-header&quot; id=&quot;content&quot;&gt;
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;h1&gt;Đăng nhập vào trang quản trị&lt;/h1&gt;		
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;col-lg-9 col-md-9&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	
+				&lt;div class=&quot;post-content&quot;&gt;
+				&lt;h1 id=&quot;b-ng-i-u-khi-n-deskboar-&quot;&gt;Bảng điểu khiển (Deskboar)&lt;/h1&gt;
+&lt;p&gt;Sau khi đã truy cập được vào trang quản trị, màn hình điều khiển chính của Wordpress sẽ hiển thị (Deskboard – Bảng điều khiển).&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i429.photobucket.com/albums/qq12/liu_zango_ne/Huong-dan-quan-tri/Dashboard_MyStyle_WordPress.png&quot; alt=&quot;Bảng điều khiển chính&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Menu chính bao gồm:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;Bài viết (Posts):&lt;/strong&gt; quản lý (thêm-xóa-sửa) bài viết, chuyên mục bài viết, thẻ.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thư viện:&lt;/strong&gt; quản lý các file đã upload lên website.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Liên kết:&lt;/strong&gt; quản lý các liên kết&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Trang:&lt;/strong&gt; quản lý trang&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Phản hồi:&lt;/strong&gt; quản lý bình luận&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Plugins:&lt;/strong&gt; quản lý phần mở rộng cho wordpress (plugin)&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Giao diện:&lt;/strong&gt; quản lý phần giao diện bên ngoài trang web&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thành viên:&lt;/strong&gt; Liệt kê tất cả thành viên hiện có. Tùy theo quyền của tài khoản truy cập bạn có thể quản lý tài khoản của user khác.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Công cụ:&lt;/strong&gt; các tiện ích&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Cài đặt:&lt;/strong&gt; các thiết đặt cho website&lt;/li&gt;
+&lt;/ul&gt;
+
+				&lt;/div&gt;
+			&lt;/article&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;col-lg-3 col-md-3&quot;&gt;
+			&lt;ul class=&quot;linklist bs-docs-sidebar hidden-print affix-top&quot; &gt;
+				
+					&lt;li&gt;
+					&lt;a href=&quot;/posts/wordpress/bang-dieu-khien-chinh&quot;&gt;Đăng nhập vào trang quản trị&lt;/a&gt;&lt;/li&gt;
+				
+					&lt;li&gt;
+					&lt;a href=&quot;/posts/wordpress/dang-nhap-quan-tri&quot;&gt;Đăng nhập vào trang quản trị&lt;/a&gt;&lt;/li&gt;
+				
+					&lt;li&gt;
+					&lt;a href=&quot;/posts/wordpress/toolbar&quot;&gt;Đăng nhập vào trang quản trị&lt;/a&gt;&lt;/li&gt;
+				
+			&lt;/ul&gt;
+		&lt;/div&gt;
+	&lt;/div&gt; &lt;!-- row --&gt;
+&lt;/div&gt; &lt;!-- container --&gt;
+
+
+
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+
+		&lt;!-- Footer --&gt;
+		&lt;footer&gt;
+			&lt;div class=&quot;container&quot;&gt;
+				&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Luu Binh An 2014&lt;/p&gt;
+				&lt;p class=&quot;pull-right&quot;&gt;
+					This website was last updated at 2014-04-26T12:06:04.800Z
+				&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/footer&gt;
+		
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Đăng nhập vào trang quản trị</title>
+			<link href="http://luubinhan.github.io/Huong-dan-quan-tri//posts/wordpress/toolbar"/>
+			<updated>2014-04-26T10:05:07.000Z</updated>
+			<id>http://luubinhan.github.io/Huong-dan-quan-tri//posts/wordpress/toolbar</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+		 More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;Đăng nhập vào trang quản trị | User Guide&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;Tài liệu hướng dẫn quản trị website MyStyle.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Luu Binh An&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.63.8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+		&lt;link rel=&quot;shortcut icon&quot; href=&quot;images/icons/favicon.ico&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;images/icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;images/icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;images/icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;images/icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/dist/css/bootstrap-theme.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/dist/css/bootstrap.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/docs.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
+	&lt;script src=&quot;/vendor/twitter-bootstrap/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+	&lt;!-- UserVoice JavaScript SDK (only needed once on a page) --&gt;
+    &lt;script&gt;(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/5TXIoPopTxzJgXUB7wEsLw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()&lt;/script&gt;
+
+    &lt;!-- A tab to launch the Classic Widget --&gt;
+    &lt;script&gt;
+    UserVoice = window.UserVoice || [];
+    UserVoice.push(['showTab', 'classic_widget', {
+      mode: 'full',
+      primary_color: '#4eecf7',
+      link_color: '#1d202a',
+      default_mode: 'feedback',
+      forum_id: 218163,
+      tab_label: 'Feedback',
+      tab_color: '#cc6d00',
+      tab_position: 'middle-left',
+      tab_inverted: false
+    }]);
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body data-spy=&quot;scroll&quot; data-target=&quot;.bs-docs-sidebar&quot;&gt;
+	&lt;!-- Menu --&gt;
+	&lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+		&lt;div class=&quot;container&quot;&gt;
+			&lt;div class=&quot;navbar-header&quot;&gt;
+				&lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+				&lt;/button&gt;
+				&lt;a class=&quot;navbar-brand&quot; href=&quot;/&quot;&gt;&lt;img src=&quot;http://i429.photobucket.com/albums/qq12/liu_zango_ne/Huong-dan-quan-tri/MyStyleLogo.png&quot; alt=&quot;MyStyle Hướng dẫn sử dụng&quot;&gt;&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;navbar-collapse collapse&quot;&gt;
+				&lt;ul class=&quot;nav navbar-nav&quot;&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/posts-wordpress&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/posts-wordpress&quot; property=&quot;dc:title&quot;&gt;
+								Quản trị website Wordpress
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/google-anylatic&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/google-anylatic&quot; property=&quot;dc:title&quot;&gt;
+								Google Anylatic
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/thu-thuat-seo-co-ban&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/thu-thuat-seo-co-ban&quot; property=&quot;dc:title&quot;&gt;
+								Thủ thuật SEO cơ bản
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/woocommerce&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/woocommerce&quot; property=&quot;dc:title&quot;&gt;
+								Woocommerce
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+				&lt;/ul&gt;
+			&lt;/div&gt;&lt;!--/.navbar-collapse --&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- Content --&gt;
+
+		&lt;!-- Content --&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;div class=&quot;bs-docs-header&quot; id=&quot;content&quot;&gt;
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;h1&gt;Đăng nhập vào trang quản trị&lt;/h1&gt;		
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;col-lg-9 col-md-9&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	
+				&lt;div class=&quot;post-content&quot;&gt;
+				&lt;h1 id=&quot;toolbar&quot;&gt;Toolbar&lt;/h1&gt;
+&lt;p&gt;Thanh toolbar cho phép truy cập đến các chức năng thường sử dụng nhất. Sau khi đăng nhập với tài khoản quản trị, thanh toolbar xuất hiện cố định ở phần trên cùng của website.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i429.photobucket.com/albums/qq12/liu_zango_ne/toolbar.jpg&quot; alt=&quot;Toolbar&quot;&gt;&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;Đường dẫn đến trang admin hoặc trang web nếu đang ở trang admin&lt;/li&gt;
+&lt;li&gt;Chỉnh sửa bài viết hoặc trang đang xem&lt;/li&gt;
+&lt;li&gt;Link đến các chức năng thêm: bài viết, file, liên kết, người dùng, sản phẩm.&lt;/li&gt;
+&lt;li&gt;Xem hoặc chỉnh sửa hồ sơ cá nhân.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2 id=&quot;-n-thanh-toolbar&quot;&gt;Ẩn thanh toolbar&lt;/h2&gt;
+&lt;p&gt;Để ẩn thanh toolbar vào phần quản lý hồ sơ cá nhân và tắt tùy chọn “Hiển thị thanh toolbar”&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Bảng điều khiển &amp;gt; Thành viên &amp;gt; Hồ sơ của bạn&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&quot;http://i429.photobucket.com/albums/qq12/liu_zango_ne/Huong-dan-quan-tri/an-toolbar.jpg&quot; alt=&quot;Ẩn toolbar&quot;&gt;&lt;/p&gt;
+
+				&lt;/div&gt;
+			&lt;/article&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;col-lg-3 col-md-3&quot;&gt;
+			&lt;ul class=&quot;linklist bs-docs-sidebar hidden-print affix-top&quot; &gt;
+				
+					&lt;li&gt;
+					&lt;a href=&quot;/posts/wordpress/bang-dieu-khien-chinh&quot;&gt;Đăng nhập vào trang quản trị&lt;/a&gt;&lt;/li&gt;
+				
+					&lt;li&gt;
+					&lt;a href=&quot;/posts/wordpress/dang-nhap-quan-tri&quot;&gt;Đăng nhập vào trang quản trị&lt;/a&gt;&lt;/li&gt;
+				
+					&lt;li&gt;
+					&lt;a href=&quot;/posts/wordpress/toolbar&quot;&gt;Đăng nhập vào trang quản trị&lt;/a&gt;&lt;/li&gt;
+				
+			&lt;/ul&gt;
+		&lt;/div&gt;
+	&lt;/div&gt; &lt;!-- row --&gt;
+&lt;/div&gt; &lt;!-- container --&gt;
+
+
+
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+
+		&lt;!-- Footer --&gt;
+		&lt;footer&gt;
+			&lt;div class=&quot;container&quot;&gt;
+				&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Luu Binh An 2014&lt;/p&gt;
+				&lt;p class=&quot;pull-right&quot;&gt;
+					This website was last updated at 2014-04-26T12:06:04.800Z
+				&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/footer&gt;
+		
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>Đăng nhập vào trang quản trị</title>
+			<link href="http://luubinhan.github.io/Huong-dan-quan-tri//posts/wordpress/dang-nhap-quan-tri"/>
+			<updated>2014-04-26T10:00:28.000Z</updated>
+			<id>http://luubinhan.github.io/Huong-dan-quan-tri//posts/wordpress/dang-nhap-quan-tri</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+		 More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;Đăng nhập vào trang quản trị | User Guide&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;Tài liệu hướng dẫn quản trị website MyStyle.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Luu Binh An&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.63.8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+		&lt;link rel=&quot;shortcut icon&quot; href=&quot;images/icons/favicon.ico&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;images/icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;images/icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;images/icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;images/icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/dist/css/bootstrap-theme.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/dist/css/bootstrap.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/docs.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
+	&lt;script src=&quot;/vendor/twitter-bootstrap/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+	&lt;!-- UserVoice JavaScript SDK (only needed once on a page) --&gt;
+    &lt;script&gt;(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/5TXIoPopTxzJgXUB7wEsLw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()&lt;/script&gt;
+
+    &lt;!-- A tab to launch the Classic Widget --&gt;
+    &lt;script&gt;
+    UserVoice = window.UserVoice || [];
+    UserVoice.push(['showTab', 'classic_widget', {
+      mode: 'full',
+      primary_color: '#4eecf7',
+      link_color: '#1d202a',
+      default_mode: 'feedback',
+      forum_id: 218163,
+      tab_label: 'Feedback',
+      tab_color: '#cc6d00',
+      tab_position: 'middle-left',
+      tab_inverted: false
+    }]);
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body data-spy=&quot;scroll&quot; data-target=&quot;.bs-docs-sidebar&quot;&gt;
+	&lt;!-- Menu --&gt;
+	&lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+		&lt;div class=&quot;container&quot;&gt;
+			&lt;div class=&quot;navbar-header&quot;&gt;
+				&lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+				&lt;/button&gt;
+				&lt;a class=&quot;navbar-brand&quot; href=&quot;/&quot;&gt;&lt;img src=&quot;http://i429.photobucket.com/albums/qq12/liu_zango_ne/Huong-dan-quan-tri/MyStyleLogo.png&quot; alt=&quot;MyStyle Hướng dẫn sử dụng&quot;&gt;&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;navbar-collapse collapse&quot;&gt;
+				&lt;ul class=&quot;nav navbar-nav&quot;&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/posts-wordpress&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/posts-wordpress&quot; property=&quot;dc:title&quot;&gt;
+								Quản trị website Wordpress
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/google-anylatic&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/google-anylatic&quot; property=&quot;dc:title&quot;&gt;
+								Google Anylatic
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/thu-thuat-seo-co-ban&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/thu-thuat-seo-co-ban&quot; property=&quot;dc:title&quot;&gt;
+								Thủ thuật SEO cơ bản
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/woocommerce&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/woocommerce&quot; property=&quot;dc:title&quot;&gt;
+								Woocommerce
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+				&lt;/ul&gt;
+			&lt;/div&gt;&lt;!--/.navbar-collapse --&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- Content --&gt;
+
+		&lt;!-- Content --&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;div class=&quot;bs-docs-header&quot; id=&quot;content&quot;&gt;
+	&lt;div class=&quot;container&quot;&gt;
+		&lt;h1&gt;Đăng nhập vào trang quản trị&lt;/h1&gt;		
+	&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&quot;container&quot;&gt;
+	&lt;div class=&quot;row&quot;&gt;
+		&lt;div class=&quot;col-lg-9 col-md-9&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	
+				&lt;div class=&quot;post-content&quot;&gt;
+				&lt;p&gt;Để vào phần quản trị website, truy cập theo địa chỉ:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://www.ten-mien-website/wp-admin&quot;&gt;http://www.ten-mien-website/wp-admin&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Ví dụ:&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;&lt;a href=&quot;http://anluu.com/wp-admin&quot;&gt;http://anluu.com/wp-admin&lt;/a&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;Cần đăng nhập vào tài khoản có quyền truy cập trang quản trị&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;http://i429.photobucket.com/albums/qq12/liu_zango_ne/Huong-dan-quan-tri/Log_In.png&quot; alt=&quot;Màn hình đăng nhập - MyStyle&quot;&gt;&lt;/p&gt;
+
+				&lt;/div&gt;
+			&lt;/article&gt;
+		&lt;/div&gt;
+		&lt;div class=&quot;col-lg-3 col-md-3&quot;&gt;
+			&lt;ul class=&quot;linklist bs-docs-sidebar hidden-print affix-top&quot; &gt;
+				
+					&lt;li&gt;
+					&lt;a href=&quot;/posts/wordpress/bang-dieu-khien-chinh&quot;&gt;Đăng nhập vào trang quản trị&lt;/a&gt;&lt;/li&gt;
+				
+					&lt;li&gt;
+					&lt;a href=&quot;/posts/wordpress/dang-nhap-quan-tri&quot;&gt;Đăng nhập vào trang quản trị&lt;/a&gt;&lt;/li&gt;
+				
+					&lt;li&gt;
+					&lt;a href=&quot;/posts/wordpress/toolbar&quot;&gt;Đăng nhập vào trang quản trị&lt;/a&gt;&lt;/li&gt;
+				
+			&lt;/ul&gt;
+		&lt;/div&gt;
+	&lt;/div&gt; &lt;!-- row --&gt;
+&lt;/div&gt; &lt;!-- container --&gt;
+
+
+
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+
+		&lt;!-- Footer --&gt;
+		&lt;footer&gt;
+			&lt;div class=&quot;container&quot;&gt;
+				&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Luu Binh An 2014&lt;/p&gt;
+				&lt;p class=&quot;pull-right&quot;&gt;
+					This website was last updated at 2014-04-26T12:06:04.800Z
+				&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/footer&gt;
+		
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>This is a Goodbye Blog Post</title>
+			<link href="http://luubinhan.github.io/Huong-dan-quan-tri//posts/bye"/>
+			<updated>2014-04-26T08:21:29.000Z</updated>
+			<id>http://luubinhan.github.io/Huong-dan-quan-tri//posts/bye</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+		 More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Goodbye Blog Post | User Guide&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;Tài liệu hướng dẫn quản trị website MyStyle.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Luu Binh An&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.63.8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+		&lt;link rel=&quot;shortcut icon&quot; href=&quot;images/icons/favicon.ico&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;images/icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;images/icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;images/icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;images/icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/dist/css/bootstrap-theme.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/dist/css/bootstrap.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/docs.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
+	&lt;script src=&quot;/vendor/twitter-bootstrap/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+	&lt;!-- UserVoice JavaScript SDK (only needed once on a page) --&gt;
+    &lt;script&gt;(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/5TXIoPopTxzJgXUB7wEsLw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()&lt;/script&gt;
+
+    &lt;!-- A tab to launch the Classic Widget --&gt;
+    &lt;script&gt;
+    UserVoice = window.UserVoice || [];
+    UserVoice.push(['showTab', 'classic_widget', {
+      mode: 'full',
+      primary_color: '#4eecf7',
+      link_color: '#1d202a',
+      default_mode: 'feedback',
+      forum_id: 218163,
+      tab_label: 'Feedback',
+      tab_color: '#cc6d00',
+      tab_position: 'middle-left',
+      tab_inverted: false
+    }]);
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body data-spy=&quot;scroll&quot; data-target=&quot;.bs-docs-sidebar&quot;&gt;
+	&lt;!-- Menu --&gt;
+	&lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+		&lt;div class=&quot;container&quot;&gt;
+			&lt;div class=&quot;navbar-header&quot;&gt;
+				&lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+				&lt;/button&gt;
+				&lt;a class=&quot;navbar-brand&quot; href=&quot;/&quot;&gt;&lt;img src=&quot;http://i429.photobucket.com/albums/qq12/liu_zango_ne/Huong-dan-quan-tri/MyStyleLogo.png&quot; alt=&quot;MyStyle Hướng dẫn sử dụng&quot;&gt;&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;navbar-collapse collapse&quot;&gt;
+				&lt;ul class=&quot;nav navbar-nav&quot;&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/posts-wordpress&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/posts-wordpress&quot; property=&quot;dc:title&quot;&gt;
+								Quản trị website Wordpress
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/google-anylatic&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/google-anylatic&quot; property=&quot;dc:title&quot;&gt;
+								Google Anylatic
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/thu-thuat-seo-co-ban&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/thu-thuat-seo-co-ban&quot; property=&quot;dc:title&quot;&gt;
+								Thủ thuật SEO cơ bản
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/woocommerce&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/woocommerce&quot; property=&quot;dc:title&quot;&gt;
+								Woocommerce
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+				&lt;/ul&gt;
+			&lt;/div&gt;&lt;!--/.navbar-collapse --&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- Content --&gt;
+
+		&lt;!-- Content --&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;This is a Goodbye Blog Post&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a goodbye &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+
+		&lt;!-- Footer --&gt;
+		&lt;footer&gt;
+			&lt;div class=&quot;container&quot;&gt;
+				&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Luu Binh An 2014&lt;/p&gt;
+				&lt;p class=&quot;pull-right&quot;&gt;
+					This website was last updated at 2014-04-26T12:06:04.800Z
+				&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/footer&gt;
+		
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+		<entry>
+			<title>This is a Hello Blog Post</title>
+			<link href="http://luubinhan.github.io/Huong-dan-quan-tri//posts/hello"/>
+			<updated>2014-04-26T08:21:29.000Z</updated>
+			<id>http://luubinhan.github.io/Huong-dan-quan-tri//posts/hello</id>
+			<content type="html">&lt;!DOCTYPE html&gt;
+&lt;html lang=&quot;en&quot;&gt;
+&lt;head&gt;
+	&lt;!-- Meta --&gt;
+	&lt;meta charset=&quot;utf-8&quot; /&gt;
+	&lt;meta http-equiv=&quot;content-type&quot; content=&quot;text/html; charset=utf-8&quot; /&gt;
+
+	&lt;!-- Use the .htaccess and remove these lines to avoid edge case issues.
+		 More info: h5bp.com/i/378 --&gt;
+	&lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge,chrome=1&quot; /&gt;
+
+	&lt;!-- Our site title and description --&gt;
+	&lt;title&gt;This is a Hello Blog Post | User Guide&lt;/title&gt;
+	&lt;meta name=&quot;description&quot; content=&quot;Tài liệu hướng dẫn quản trị website MyStyle.&quot; /&gt;
+	&lt;meta name=&quot;keywords&quot; content=&quot;place, your, website, keywoards, here, keep, them, related, to, the, content, of, your, website&quot; /&gt;
+	&lt;meta name=&quot;author&quot; content=&quot;Luu Binh An&quot; /&gt;
+
+	&lt;!-- Output DocPad produced meta elements --&gt;
+	&lt;meta name=&quot;generator&quot; content=&quot;DocPad v6.63.8&quot; /&gt;
+
+	&lt;!-- Mobile viewport optimized: h5bp.com/viewport --&gt;
+	&lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=0&quot; /&gt;
+
+	&lt;!-- Icons --&gt;
+		&lt;link rel=&quot;shortcut icon&quot; href=&quot;images/icons/favicon.ico&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;144x144&quot; href=&quot;images/icons/apple-touch-icon-144-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;114x114&quot; href=&quot;images/icons/apple-touch-icon-114-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; sizes=&quot;72x72&quot; href=&quot;images/icons/apple-touch-icon-72-precomposed.png&quot;&gt;
+		&lt;link rel=&quot;apple-touch-icon-precomposed&quot; href=&quot;images/icons/apple-touch-icon-57-precomposed.png&quot;&gt;
+
+	&lt;!-- Shims: IE6-8 support of HTML5 elements --&gt;
+	&lt;!--[if lt IE 9]&gt;
+		&lt;script async src=&quot;http://html5shim.googlecode.com/svn/trunk/html5.js&quot;&gt;&lt;/script&gt;
+	&lt;![endif]--&gt;
+
+	&lt;!-- Styles --&gt;
+
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/dist/css/bootstrap-theme.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/vendor/twitter-bootstrap/dist/css/bootstrap.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/docs.css&quot;&gt;
+	&lt;link rel=&quot;stylesheet&quot; href=&quot;/styles/style.css&quot;&gt;
+	&lt;script src=&quot;/vendor/twitter-bootstrap/dist/js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+	&lt;!-- UserVoice JavaScript SDK (only needed once on a page) --&gt;
+    &lt;script&gt;(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/5TXIoPopTxzJgXUB7wEsLw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()&lt;/script&gt;
+
+    &lt;!-- A tab to launch the Classic Widget --&gt;
+    &lt;script&gt;
+    UserVoice = window.UserVoice || [];
+    UserVoice.push(['showTab', 'classic_widget', {
+      mode: 'full',
+      primary_color: '#4eecf7',
+      link_color: '#1d202a',
+      default_mode: 'feedback',
+      forum_id: 218163,
+      tab_label: 'Feedback',
+      tab_color: '#cc6d00',
+      tab_position: 'middle-left',
+      tab_inverted: false
+    }]);
+    &lt;/script&gt;
+&lt;/head&gt;
+&lt;body data-spy=&quot;scroll&quot; data-target=&quot;.bs-docs-sidebar&quot;&gt;
+	&lt;!-- Menu --&gt;
+	&lt;div class=&quot;navbar navbar-inverse&quot;&gt;
+		&lt;div class=&quot;container&quot;&gt;
+			&lt;div class=&quot;navbar-header&quot;&gt;
+				&lt;button type=&quot;button&quot; class=&quot;navbar-toggle&quot; data-toggle=&quot;collapse&quot; data-target=&quot;.navbar-collapse&quot;&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+					&lt;span class=&quot;icon-bar&quot;&gt;&lt;/span&gt;
+				&lt;/button&gt;
+				&lt;a class=&quot;navbar-brand&quot; href=&quot;/&quot;&gt;&lt;img src=&quot;http://i429.photobucket.com/albums/qq12/liu_zango_ne/Huong-dan-quan-tri/MyStyleLogo.png&quot; alt=&quot;MyStyle Hướng dẫn sử dụng&quot;&gt;&lt;/a&gt;
+			&lt;/div&gt;
+			&lt;div class=&quot;navbar-collapse collapse&quot;&gt;
+				&lt;ul class=&quot;nav navbar-nav&quot;&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/posts-wordpress&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/posts-wordpress&quot; property=&quot;dc:title&quot;&gt;
+								Quản trị website Wordpress
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/google-anylatic&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/google-anylatic&quot; property=&quot;dc:title&quot;&gt;
+								Google Anylatic
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/thu-thuat-seo-co-ban&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/thu-thuat-seo-co-ban&quot; property=&quot;dc:title&quot;&gt;
+								Thủ thuật SEO cơ bản
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+						&lt;li
+							typeof=&quot;sioc:Page&quot;
+							about=&quot;/pages/woocommerce&quot;
+							class=&quot;&quot;
+						&gt;
+							&lt;a href=&quot;/pages/woocommerce&quot; property=&quot;dc:title&quot;&gt;
+								Woocommerce
+							&lt;/a&gt;
+						&lt;/li&gt;
+					
+				&lt;/ul&gt;
+			&lt;/div&gt;&lt;!--/.navbar-collapse --&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+
+	&lt;!-- Content --&gt;
+
+		&lt;!-- Content --&gt;
+		&lt;section id=&quot;content&quot; class=&quot;content&quot;&gt;
+			&lt;article id=&quot;post&quot; class=&quot;post&quot;&gt;
+	&lt;h1&gt;This is a Hello Blog Post&lt;/h1&gt;
+	&lt;div class=&quot;post-content&quot;&gt;&lt;p&gt;This is a hello &lt;strong&gt;blog post&lt;/strong&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;/article&gt;
+
+&lt;footer&gt;
+	
+&lt;/footer&gt;
+		&lt;/section&gt;
+
+		&lt;!-- Footer --&gt;
+		&lt;footer&gt;
+			&lt;div class=&quot;container&quot;&gt;
+				&lt;p class=&quot;pull-left&quot;&gt;&amp;copy; Luu Binh An 2014&lt;/p&gt;
+				&lt;p class=&quot;pull-right&quot;&gt;
+					This website was last updated at 2014-04-26T12:06:04.800Z
+				&lt;/p&gt;
+			&lt;/div&gt;
+		&lt;/footer&gt;
+		
+&lt;/body&gt;
+&lt;/html&gt;
+</content>
+		</entry>
+	
+</feed>
