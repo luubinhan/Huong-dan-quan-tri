@@ -1,0 +1,96 @@
+<!doctype html>
+<html class="no-js">
+<head>
+	<!-- Standard Meta -->
+	<meta charset="utf-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- Site Properities -->
+	<title><%= @getPreparedTitle() %></title>
+	<meta name="description" content="<%= @getPreparedDescription() %>" />
+	<meta name="keywords" content="<%= @getPreparedKeywords() %>" />
+
+	<!-- DocPad Meta -->
+	<%- @getBlock('meta').toHTML() %>
+
+	<!-- DocPad Styles + Our Own -->
+	<%- @getBlock('styles').add(@site.styles).toHTML() %>
+	<script src=""></script>
+	
+	<script src="/vendor/jquery.js"></script>
+	<script src="/vendor/modernizr.js"></script>
+	<script src="/vendor/log.js"></script>
+	<script src="/scripts/script.js"></script>
+	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+	<!-- UserVoice JavaScript SDK (only needed once on a page) -->
+    <script>(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/5TXIoPopTxzJgXUB7wEsLw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()</script>
+
+    <!-- A tab to launch the Classic Widget -->
+    <script>
+    UserVoice = window.UserVoice || [];
+    UserVoice.push(['showTab', 'classic_widget', {
+      mode: 'full',
+      primary_color: '#4eecf7',
+      link_color: '#1d202a',
+      default_mode: 'feedback',
+      forum_id: 218163,
+      tab_label: 'Feedback',
+      tab_color: '#cc6d00',
+      tab_position: 'middle-left',
+      tab_inverted: false
+    }]);
+    </script>
+</head>
+<body data-spy="scroll" data-target=".bs-docs-sidebar">
+	<!--[if lt IE 7]>
+	<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+
+	<!-- Menu -->
+	<div class="navbar navbar-inverse">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="/"><img src="http://i429.photobucket.com/albums/qq12/liu_zango_ne/Huong-dan-quan-tri/MyStyleLogo.png" alt="MyStyle Hướng dẫn sử dụng"></a>
+			</div>
+			<div class="navbar-collapse collapse">
+				<ul class="nav navbar-nav">
+					<% for document in @getCollection('posts').toJSON(): %>
+						<li							
+							about="<%= document.url %>"
+							class="<%= 'active'	if @document.url is document.url %>"
+						>
+							<a href="<%= document.url %>" property="dc:title">
+								<%= document.title %>
+							</a>
+						</li>
+					<% end %>
+				</ul>
+			</div><!--/.navbar-collapse -->
+		</div>
+	</div>
+
+	<!-- Content -->
+
+	<!-- Content -->
+	<section id="content" class="content">
+		<%- @content %>
+	</section>
+
+	<!-- Footer -->
+	<footer>
+		<div class="container">
+			<p class="pull-left">&copy; Luu Binh An <%- (new Date()).getFullYear() %></p>
+			<p class="pull-right">
+				This website was last updated at <%= @site.date.toISOString() %>
+			</p>
+		</div>
+	</footer>
+	
+</body>
+</html>

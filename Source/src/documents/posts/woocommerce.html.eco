@@ -1,0 +1,100 @@
+---
+title: Woocommerce
+layout: content
+pageOrder: 4
+---
+
+<div class="container">
+
+    <!-- Docs nav
+    ================================================== -->
+     <div class="row">
+       <div class="col-lg-3 col-md-4 hidden-lg" >
+        <ul class="list-group nav">
+          <li class="list-group-item">
+          <a  href="#dangSanPham"><span class="glyphicon glyphicon-chevron-right"></span> Đăng sản phẩm</a>
+          </li>
+          <li class="list-group-item">
+          <a  href="#dangNhap"><span class="glyphicon glyphicon-chevron-right"></span> Đăng sản phẩm nhiều mẫu mã</a>
+          </li>
+        </ul>
+      </div><!-- span3 -->
+      <div class="col-lg-3 col-md-4 bs-docs-sidebar visible-lg" >
+        <ul class="list-group nav" data-spy="affix" data-offset-top="0" data-offset-bottom="200" >
+          <li class="list-group-item">
+          <a  href="#dangSanPham"><span class="glyphicon glyphicon-chevron-right"></span> Đăng sản phẩm</a>
+          </li>
+          <li class="list-group-item">
+          <a  href="#dangNhap"><span class="glyphicon glyphicon-chevron-right"></span> Đăng sản phẩm nhiều mẫu mã</a>
+          </li>
+        </ul>
+      </div><!-- span3 -->
+      <div class="col-lg-9 col-md-8">
+        <!-- Dang san pham
+        ================================================== -->
+        <section id="dangSanPham">
+          <article  class="markdown-body entry-content" itemprop="mainContentOfPage">
+            <div class="page-header">
+              <h1>
+                 Đăng sản phẩm
+              </h1>
+            </div>
+            <p>
+            Cách đăng sản phẩm cũng tương tự như cách đăng một bài viết bình thường, điền các thông tin sản phẩm: tên, mô tả, giá, số lượng, hình đại diện album.
+            </p>
+            <blockquote>
+              Từ trang quản trị > Sản phẩm > Thêm sản phẩm
+            </blockquote>
+            <p>
+              <img src="http://i429.photobucket.com/albums/qq12/liu_zango_ne/Huong-dan-quan-tri/them-san-pham-moi.jpg" alt="">
+            </p>
+          </article>
+        </section>
+
+        <!-- San pham nhieu mau ma
+        ================================================== -->
+        <section id="dangNhap">
+          <article  class="markdown-body entry-content" itemprop="mainContentOfPage">
+            <div class="page-header">
+              <h1>
+                 Đăng sản phẩm nhiều mẫu mã
+              </h1>
+            </div>
+            <p>
+            Sản phẩm nhiều mẫu mã là những sản phẩm có thể có nhiều kích thước khác nhau như size S, M, XL, XXL, hoặc nhiều màu để khách hàng lựa chọn.
+            </p>
+            <blockquote>
+              Từ trang quản trị > Sản phẩm > Thêm sản phẩm
+            </blockquote>
+            <p>Nhập các thông tin cho sản phẩm như cách nhập một sản phẩm bình thường</p>
+            <p>Đến một dữ liệu về sản phẩm, thay vì để <code>sản phẩm đơn giản</code> như mặc định, chọn <code>sản phẩm có nhiều mẫu mã</code></p>
+            <p>
+              <img src="http://i429.photobucket.com/albums/qq12/liu_zango_ne/Huong-dan-quan-tri/san-pham-nhieu-mau-ma.jpg" alt="">
+            </p>
+            <p>
+              Chọn tab thuộc tính, click thêm <b>"Thêm"</b> nhập tên và giá trị, ví dụ: nhập tên: Size, giá trị: M|S, mỗi giá trị phân cách bằng dấu <code>|</code>.
+            </p>
+            <p>Stick vào ô Dùng Variation > <b>Lưu thuộc tính</b> </p>
+            <p>
+              <img src="http://i429.photobucket.com/albums/qq12/liu_zango_ne/Huong-dan-quan-tri/thuoc-tinh-variation.jpg" alt="thuoc tinh variation - mystyle">
+            </p>
+            <p>
+              Chuyển xuống tab lựa chọn, click nút <b>"Tự động tạo theo thuộc tính"</b>, sau khi hệ thống tự tạo 2 mẫu mới (S,M như ví dụ), điền các thông tin mới cho mẫu này, ( thông tin bắt buộc Giá bán). Kết thúc bằng <b>"Đăng sản phẩm"</b> hoặc <b>"Cập nhập"</b> để thấy kết quả.
+            </p>
+            <p>
+              <img src="http://i429.photobucket.com/albums/qq12/liu_zango_ne/Huong-dan-quan-tri/lua-chon-variation.jpg" alt="">
+            </p>
+          </article>
+        </section>
+      </div>
+    </div><!-- row -->
+    </div>
+
+
+
+
+
+
+
+
+
