@@ -12,12 +12,12 @@ docpadConfig = {
 		# Specify some site properties
 		site:
 			# The production url of our website
-			url: "http://website.com"
+			url: "http://luubinhan.github.io/Huong-dan-quan-tri"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
-				'www.website.com',
-				'website.herokuapp.com'
+				'luubinhan.github.io/Huong-dan-quan-tri',
+				'luubinhan.github.io/Huong-dan-quan-tri'
 			]
 
 			# The default title of our website
@@ -47,8 +47,8 @@ docpadConfig = {
 
 			# Scripts
 			scripts: [
-				"//cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
-				"//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"				
+				"http://cdnjs.cloudflare.com/ajax/libs/jquery/1.10.2/jquery.min.js"
+				"http://cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js"				
 			]
 
 
