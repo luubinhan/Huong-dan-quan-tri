@@ -16,7 +16,7 @@ module.exports = (grunt) ->
         data:
           version: '<%= grunt.template.today("yyyymmddHH") %>'
       main:
-        dest: '../'
+        dest: 'dist/html/'
         src: ['**/*.html','!partials/*.html']
         expand: true
         cwd: 'src/template/'
@@ -29,7 +29,7 @@ module.exports = (grunt) ->
         dest: '../htdocs/html/'
         src: ['**', '!data.json']
         expand: true
-        cwd: '../'
+        cwd: 'dist/html/'
     connect:
       server:
         options:
