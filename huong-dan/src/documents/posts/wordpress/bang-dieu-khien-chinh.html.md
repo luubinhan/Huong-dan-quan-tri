@@ -1,0 +1,24 @@
+```
+title: Đăng nhập vào trang quản trị
+layout: post-wordpress
+tags: ['intro','post']
+```
+
+# Bảng điểu khiển (Deskboar)
+
+Sau khi đã truy cập được vào trang quản trị, màn hình điều khiển chính của Wordpress sẽ hiển thị (Deskboard – Bảng điều khiển).
+
+![Bảng điều khiển chính](http://i429.photobucket.com/albums/qq12/liu_zango_ne/Huong-dan-quan-tri/Dashboard_MyStyle_WordPress.png)
+
+Menu chính bao gồm:
+
+- **Bài viết (Posts):** quản lý (thêm-xóa-sửa) bài viết, chuyên mục bài viết, thẻ.
+- **Thư viện:** quản lý các file đã upload lên website.
+- **Liên kết:** quản lý các liên kết
+- **Trang:** quản lý trang
+- **Phản hồi:** quản lý bình luận
+- **Plugins:** quản lý phần mở rộng cho wordpress (plugin)
+- **Giao diện:** quản lý phần giao diện bên ngoài trang web
+- **Thành viên:** Liệt kê tất cả thành viên hiện có. Tùy theo quyền của tài khoản truy cập bạn có thể quản lý tài khoản của user khác.
+- **Công cụ:** các tiện ích
+- **Cài đặt:** các thiết đặt cho website
