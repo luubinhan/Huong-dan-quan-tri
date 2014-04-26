@@ -1,0 +1,29 @@
+/* Your styles go here */
+.navbar  {
+	margin-bottom: 0;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+}
+.jumbotron h1 {
+	margin-top: 0;
+}
+.list-group-item > a > .glyphicon {
+	float: right;
+	font-size: 9px;
+	margin-top: 3px;
+}
+.list-group-item {
+	padding: 0;
+}
+.list-group-item a {
+	color: #333;
+}
+.list-group-item.active > a {
+	text-shadow: 1px 0 0 rgba(0, 0, 0, 0.1) inset, -1px 0 0 rgba(0, 0, 0, 0.1) inset;
+	background: #00A5B6;
+	color: #fff;
+}
+img {
+	max-width: 100%;
+}
