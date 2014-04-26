@@ -13,13 +13,15 @@ docpadConfig = {
 		site:
 			# The production url of our website
 			# If not set, will default to the calculated site URL (e.g. http://localhost:9778)
-			url: "http://website.com"
+			url: "http://luubinhan.github.io/Huong-dan-quan-tri"
 
 			# Here are some old site urls that you would like to redirect from
 			oldUrls: [
 				'www.website.com',
 				'website.herokuapp.com'
 			]
+
+			liveUrl: "http://luubinhan.github.io/Huong-dan-quan-tri"
 
 			# The default title of our website
 			title: "User Guide"
@@ -62,6 +64,9 @@ docpadConfig = {
 			# if our document does not have it's own title, then we should just use the site's title
 			else
 				@site.title
+
+		getLiveUrl: ->
+			@site.liveUrl
 
 		# Get the prepared site/document description
 		getPreparedDescription: ->
