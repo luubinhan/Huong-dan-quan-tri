@@ -16,12 +16,12 @@
 
 	<!-- DocPad Styles + Our Own -->
 	<%- @getBlock('styles').add(@site.styles).toHTML() %>
-	<script src=""></script>
+
 	
-	<script src="vendor/jquery.js"></script>
-	<script src="vendor/modernizr.js"></script>
-	<script src="vendor/log.js"></script>
-	<script src="scripts/script.js"></script>
+	<script src="<%= @getLiveUrl() %>vendor/jquery.js"></script>
+	<script src="<%= @getLiveUrl() %>vendor/modernizr.js"></script>
+	<script src="<%= @getLiveUrl() %>vendor/log.js"></script>
+	<script src="<%= @getLiveUrl() %>scripts/script.js"></script>
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
 	<!-- UserVoice JavaScript SDK (only needed once on a page) -->
     <script>(function(){var uv=document.createElement('script');uv.type='text/javascript';uv.async=true;uv.src='//widget.uservoice.com/5TXIoPopTxzJgXUB7wEsLw.js';var s=document.getElementsByTagName('script')[0];s.parentNode.insertBefore(uv,s)})()</script>

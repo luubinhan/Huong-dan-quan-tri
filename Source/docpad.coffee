@@ -38,9 +38,9 @@ docpadConfig = {
 
 			# The website's styles
 			styles: [
-				'/vendor/normalize.css'
-				'/vendor/default.css'
-				'/styles/style.css'
+				'http://luubinhan.github.io/Huong-dan-quan-tri/vendor/normalize.css'
+				'http://luubinhan.github.io/Huong-dan-quan-tri/vendor/default.css'
+				'http://luubinhan.github.io/Huong-dan-quan-tri/styles/style.css'
 			]
 
 			# The website's scripts
@@ -114,7 +114,7 @@ docpadConfig = {
 		development:
 			templateData:
 				site:
-					url: false
+					url: true
 
 
 	# =================================
